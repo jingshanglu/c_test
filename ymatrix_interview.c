@@ -114,17 +114,17 @@ void task3(const Row *rows, int nrows)
     {
         for (int j = 1; j <= result[i][0]; j++)
         {
-            printf("%d,%d\n", i, 1000);
+            printf("%d,%d\n", 1000, i);
         }
 
         for (int j = 1; j <= result[i][1]; j++)
         {
-            printf("%d,%d\n", i, 2000);
+            printf("%d,%d\n", 2000, i);
         }
 
         for (int j = 1; j <= result[i][2]; j++)
         {
-            printf("%d,%d\n", i, 3000);
+            printf("%d,%d\n", 3000, i);
         }
     }
 }
